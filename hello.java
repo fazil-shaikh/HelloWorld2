@@ -9,6 +9,10 @@ public class hello {
 		DateFormat df = new SimpleDateFormat("dd/MM/yy HH:mm:ss");
 		Date dateobj = new Date();
 		System.out.println(df.format(dateobj));
+		
+		/* Total memory currently in use by the JVM */
+		System.out.println("Total memory (bytes): " + 
+		Runtime.getRuntime().totalMemory());
 
     	System.out.println ("Hello World!");
     	System.out.println ("Hi Alice");
